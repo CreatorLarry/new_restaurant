@@ -5,16 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c28d1b51-576f-45bf-8903-aa4b7b0a9f5a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/book-table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/pages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/assets/assets/img/fries.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/assets/vendor/php-email-form/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/assets/vendor/php-email-form/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/assets/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/assets/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/assets/assets/vendor/php-email-form/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/assets/assets/vendor/php-email-form/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_restaurant/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_restaurant/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_restaurant/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_restaurant/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/landing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/book-table.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book-table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/master.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/master.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,21 +43,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "CreatorLarry"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CreatorLarry&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:CreatorLarry/new_restaurant.git",
-    "accountId": "409726a6-1946-4367-8c82-b8838d5e5c17"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:CreatorLarry/new_restaurant.git&quot;,
+    &quot;accountId&quot;: &quot;409726a6-1946-4367-8c82-b8838d5e5c17&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2tvdOdZSCGbSOPj6SUwH0KeZTVo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,11 +69,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.new_restaurant.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Creator_Larry/new_restaurant/main/assets",
+    "last_opened_file_path": "C:/Users/Creator_Larry/new_restaurant/main/assets/assets/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,6 +87,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Creator_Larry\new_restaurant\main\assets\assets\img" />
       <recent name="C:\Users\Creator_Larry\new_restaurant\main\assets" />
     </key>
   </component>
@@ -83,6 +99,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="new_restaurant.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -117,11 +134,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741236450759</updated>
-      <workItem from="1741236451777" duration="10692000" />
+      <workItem from="1741236451777" duration="11639000" />
+      <workItem from="1741338678632" duration="3804000" />
+      <workItem from="1741358445085" duration="347000" />
+      <workItem from="1741370458302" duration="7563000" />
+      <workItem from="1741659730164" duration="21902000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/templates/order.html</url>
+          <line>67</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

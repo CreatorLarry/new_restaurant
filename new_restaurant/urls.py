@@ -18,11 +18,20 @@ from django.contrib import admin
 from django.urls import path
 
 from main import views
+from new_restaurant import settings
+
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('', views.home, name='home'),
     path('about', views.about, name='about'),
     path('menu', views.menu, name='menu'),
     path('book-table', views.book_table, name='book-table'),
+    path('order', views.order, name='order'),
+    path('gallery', views.gallery, name='gallery'),
+    path('contact', views.contact, name='contact'),
     path('admin/', admin.site.urls),
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

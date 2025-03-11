@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 
+from django.contrib import messages
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -77,6 +79,9 @@ STATIC_ROOT = BASE_DIR / 'assets'
 
 STATICFILES_DIRS = [BASE_DIR / 'main/assets']
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
@@ -91,6 +96,7 @@ DATABASES = {
         'OPTIONS': {
             'charset': 'utf8mb4',  # Ensures proper storage of Unicode characters
             'init_command': "SET default_storage_engine=INNODB;"
+
         },
     }
 }
@@ -130,9 +136,16 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+MESSAGE_TAGS = {
+    messages.DEBUG: 'alert-info',
+    messages.INFO: 'alert-info',
+    messages.SUCCESS: 'alert-success',
+    messages.WARNING: 'alert-warning',
+    messages.ERROR: 'alert-danger',
+}
